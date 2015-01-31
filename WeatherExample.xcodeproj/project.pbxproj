@@ -14,6 +14,7 @@
 		DF8709B61A7250D6000CCBC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8709B51A7250D6000CCBC9 /* Images.xcassets */; };
 		DF8709B91A7250D6000CCBC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8709B71A7250D6000CCBC9 /* LaunchScreen.xib */; };
 		DF8709C51A7250D6000CCBC9 /* WeatherExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8709C41A7250D6000CCBC9 /* WeatherExampleTests.m */; };
+		DF8709D01A725150000CCBC9 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8709CF1A725150000CCBC9 /* NetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DF8709BE1A7250D6000CCBC9 /* WeatherExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8709C31A7250D6000CCBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF8709C41A7250D6000CCBC9 /* WeatherExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherExampleTests.m; sourceTree = "<group>"; };
+		DF8709CE1A725150000CCBC9 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		DF8709CF1A725150000CCBC9 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				DF8709AD1A7250D6000CCBC9 /* AppDelegate.m */,
 				DF8709AF1A7250D6000CCBC9 /* ViewController.h */,
 				DF8709B01A7250D6000CCBC9 /* ViewController.m */,
+				DF8709CE1A725150000CCBC9 /* NetworkManager.h */,
+				DF8709CF1A725150000CCBC9 /* NetworkManager.m */,
 				DF8709B21A7250D6000CCBC9 /* Main.storyboard */,
 				DF8709B51A7250D6000CCBC9 /* Images.xcassets */,
 				DF8709B71A7250D6000CCBC9 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8709D01A725150000CCBC9 /* NetworkManager.m in Sources */,
 				DF8709B11A7250D6000CCBC9 /* ViewController.m in Sources */,
 				DF8709AE1A7250D6000CCBC9 /* AppDelegate.m in Sources */,
 				DF8709AB1A7250D6000CCBC9 /* main.m in Sources */,
