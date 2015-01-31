@@ -57,12 +57,11 @@
     NSLog(@"weatherInfoFailedWithError:%@",[error localizedDescription]);
 }
 
-
-
-
-
-
-
+- (void)weatherInfoParsingFailedWithError:(NSError *)error
+{
+    //同上
+    NSLog(@"weatherInfoParsingFailedWithError:%@",[error localizedDescription]);
+}
 
 
 @end
